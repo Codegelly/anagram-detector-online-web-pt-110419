@@ -7,7 +7,7 @@ class Anagram
  end 
  
 def match(array) 
-array.map{|word| n * n }
+array.select{|word|  }
 
 end   
 
