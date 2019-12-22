@@ -7,7 +7,7 @@ class Anagram
  end 
 
 def anagram(anagram)
- anagrams.match(anagrams) {|x| anagrams}
+ anagram.match(string) {|x| anagrams}
  #detect if there is no match in the Array
  #str.match(pat) {|m| ...}
  end 
