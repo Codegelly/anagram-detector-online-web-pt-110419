@@ -2,11 +2,11 @@ class Anagram
   
  attr_accessor :anagram
  
- def initialize(anagram) 
+ def initialize 
    @anagram = anagram
  end 
 
-def anagram 
+def anagram(anagram)
  anagram.match(anagrams) {|x| anagrams}
  #detect if there is no match in the Array
  #str.match(pat) {|m| ...}
