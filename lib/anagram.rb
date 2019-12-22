@@ -5,11 +5,17 @@ class Anagram
  def initialize(anagram) 
    @anagram = anagram
  end 
+def match 
 
-def anagram(anagram)
- anagram.match(anagrams) {|x| anagrams}
- #detect if there is no match in the Array
- #str.match(pat) {|m| ...}
- end 
+end   
+
+# def anagram(anagram)
+# anagram.match(anagrams) {|x| anagrams}
+ 
+ 
+ 
+# #detect if there is no match in the Array
+# #str.match(pat) {|m| ...}
+# end 
  
 end 
